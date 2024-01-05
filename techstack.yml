@@ -1,7 +1,8 @@
 repo_name: thachlp/mina-sshd
 report_id: ea7f4417349362bcce95c1dcfff1846b
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T03:08:25+00:00'
+timestamp: '2024-01-05T09:02:58+00:00'
 requested_by: FliegenKLATSCH
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/thachlp/mina-sshd
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/thachlp/mina-sshd
   detection_source: Repo Metadata
 - name: Netty
   description: Asynchronous event-driven network application framework
@@ -36,6 +39,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Concurrency Frameworks
   image_url: https://img.stackshare.io/service/3278/netty_icon_256px.png
+  detection_source_url: https://github.com/thachlp/mina-sshd/blob/master/assembly/src/main/legal/licenses/netty.txt
   detection_source: assembly/src/main/legal/licenses/netty.txt
   last_updated_by: Lyor Goldstein
   last_updated_on: 2018-10-24 06:43:59.000000000 Z
@@ -47,6 +51,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Serialization Frameworks
   image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/thachlp/mina-sshd/blob/master/sshd-core/pom.xml
   detection_source: sshd-core/pom.xml
   last_updated_by: Thomas Wolf
   last_updated_on: 2022-06-11 10:04:03.000000000 Z
@@ -58,6 +63,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/thachlp/mina-sshd
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -67,6 +73,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/thachlp/mina-sshd/blob/master/.github/workflows/master-build.yml
   detection_source: ".github/workflows/master-build.yml"
   last_updated_by: Thomas Wolf
   last_updated_on: 2022-11-02 11:08:51.000000000 Z
@@ -80,7 +87,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/2020/874086.png
-  detection_source_url: pom.xml
+  detection_source_url: https://github.com/thachlp/mina-sshd/blob/master/pom.xml
   detection_source: pom.xml
   last_updated_by: Guillaume Nodet
   last_updated_on: 2008-12-04 18:59:31.000000000 Z
@@ -92,7 +99,8 @@ tools:
   category: Monitoring
   sub_category: Log Management
   image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
-  detection_source: sshd-common/src/test/resources/logback-test.xml
+  detection_source_url: https://github.com/thachlp/mina-sshd/blob/master/pom.xml
+  detection_source: pom.xml
   last_updated_by: Lyor Goldstein
   last_updated_on: 2022-07-13 17:31:38.000000000 Z
 - name: Mockito
@@ -105,7 +113,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
-  detection_source_url: pom.xml
+  detection_source_url: https://github.com/thachlp/mina-sshd/blob/master/pom.xml
   detection_source: pom.xml
   last_updated_by: Lyor Goldstein
   last_updated_on: 2020-12-10 04:51:45.000000000 Z
@@ -117,7 +125,8 @@ tools:
   category: Monitoring
   sub_category: Log Management
   image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
-  detection_source: pom.xml
+  detection_source_url: https://github.com/thachlp/mina-sshd/blob/master/assembly/pom.xml
+  detection_source: assembly/pom.xml
   last_updated_by: Guillaume Nodet
   last_updated_on: 2009-11-19 11:10:20.000000000 Z
 - name: Shell
@@ -129,4 +138,5 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/thachlp/mina-sshd
   detection_source: Repo Metadata
